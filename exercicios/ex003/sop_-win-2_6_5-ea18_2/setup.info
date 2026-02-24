@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<setupinfo>
+  <arch>32</arch>
+  <reg_talk>1</reg_talk>
+  <langtype>0</langtype>
+  <exepath></exepath>
+  <msetup_param num="2">
+    <param type="special" id="0">MSETUP_REG</param>
+    <param type="plain" id="1">-NOEULA</param>
+  </msetup_param>
+  <smex_param num="2">
+    <param type="special" id="0">MSETUP_REG</param>
+    <param type="plain" id="1">-NOEULA</param>
+  </smex_param>
+  <init_reg_list>
+    <regset>
+      <key>APPLICATION_COMPLETED</key>
+      <regtype>DWORD</regtype>
+      <value>0xffffffff</value>
+      <vartype>plain</vartype>
+    </regset>
+    <regset>
+      <key>REBOOT</key>
+      <regtype>DWORD</regtype>
+      <value>0</value>
+      <vartype>plain</vartype>
+    </regset>
+    <regset>
+      <key>PRIMARY_LANGID</key>
+      <regtype>DWORD</regtype>
+      <value>0</value>
+      <vartype>special</vartype>
+    </regset>
+    <regset>
+      <key>SUB_LANGID</key>
+      <regtype>DWORD</regtype>
+      <value>0</value>
+      <vartype>special</vartype>
+    </regset>
+    <regset>
+      <key>RESIDENCE</key>
+      <regtype>SZ</regtype>
+      <value>RESIDENCE</value>
+      <vartype>special</vartype>
+    </regset>
+    <regset>
+      <key>REGION</key>
+      <regtype>SZ</regtype>
+      <value>REGION</value>
+      <vartype>special</vartype>
+    </regset>
+  </init_reg_list>
+  <return_reg_list>
+    <regset>
+      <key>APPLICATION_COMPLETED</key>
+      <regtype>DWORD</regtype>
+    </regset>
+    <regset>
+      <key>REBOOT</key>
+      <regtype>DWORD</regtype>
+    </regset>
+  </return_reg_list>
+</setupinfo>
